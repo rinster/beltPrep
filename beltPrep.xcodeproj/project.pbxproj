@@ -13,6 +13,10 @@
 		034AF0852154A3FA001C5BD0 /* beltPrep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 034AF0832154A3FA001C5BD0 /* beltPrep.xcdatamodeld */; };
 		034AF0872154A3FB001C5BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034AF0862154A3FB001C5BD0 /* Assets.xcassets */; };
 		034AF08A2154A3FB001C5BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034AF0882154A3FB001C5BD0 /* LaunchScreen.storyboard */; };
+		034AF0932154A876001C5BD0 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AF0912154A876001C5BD0 /* TableViewCell1.swift */; };
+		034AF0942154A876001C5BD0 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034AF0922154A876001C5BD0 /* TableViewCell1.xib */; };
+		034AF0982154AB03001C5BD0 /* unfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 034AF0962154AB03001C5BD0 /* unfilled.png */; };
+		034AF09A2154BE57001C5BD0 /* filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 034AF0992154BE57001C5BD0 /* filled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		034AF0862154A3FB001C5BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034AF0892154A3FB001C5BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034AF08B2154A3FB001C5BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034AF0912154A876001C5BD0 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		034AF0922154A876001C5BD0 /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		034AF0962154AB03001C5BD0 /* unfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unfilled.png; sourceTree = "<group>"; };
+		034AF0992154BE57001C5BD0 /* filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		034AF07B2154A3FA001C5BD0 /* beltPrep */ = {
 			isa = PBXGroup;
 			children = (
+				034AF0992154BE57001C5BD0 /* filled.png */,
+				034AF0962154AB03001C5BD0 /* unfilled.png */,
 				034AF07C2154A3FA001C5BD0 /* AppDelegate.swift */,
 				034AF07E2154A3FA001C5BD0 /* ViewController.swift */,
 				034AF0802154A3FA001C5BD0 /* Main.storyboard */,
+				034AF0912154A876001C5BD0 /* TableViewCell1.swift */,
+				034AF0922154A876001C5BD0 /* TableViewCell1.xib */,
 				034AF0862154A3FB001C5BD0 /* Assets.xcassets */,
 				034AF0882154A3FB001C5BD0 /* LaunchScreen.storyboard */,
 				034AF08B2154A3FB001C5BD0 /* Info.plist */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034AF09A2154BE57001C5BD0 /* filled.png in Resources */,
 				034AF08A2154A3FB001C5BD0 /* LaunchScreen.storyboard in Resources */,
+				034AF0982154AB03001C5BD0 /* unfilled.png in Resources */,
 				034AF0872154A3FB001C5BD0 /* Assets.xcassets in Resources */,
 				034AF0822154A3FA001C5BD0 /* Main.storyboard in Resources */,
+				034AF0942154A876001C5BD0 /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				034AF07F2154A3FA001C5BD0 /* ViewController.swift in Sources */,
 				034AF07D2154A3FA001C5BD0 /* AppDelegate.swift in Sources */,
 				034AF0852154A3FA001C5BD0 /* beltPrep.xcdatamodeld in Sources */,
+				034AF0932154A876001C5BD0 /* TableViewCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
